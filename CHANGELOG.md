@@ -6,3 +6,7 @@
 - Transparent shim over openclaw with `~/.durar/` config directory
 - `durar migrate` command to move existing `~/.openclaw/` data
 - Auto-sync with upstream openclaw via GitHub Actions (every 6 hours)
+
+## 1.0.1 (2026-03-22)
+
+- Sync with openclaw@2026.3.13
