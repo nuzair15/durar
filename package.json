@@ -1,0 +1,48 @@
+{
+  "name": "durar",
+  "version": "1.0.0",
+  "description": "Durar — your personal AI assistant on every platform. Powered by OpenClaw.",
+  "homepage": "https://github.com/durar-app/durar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durar-app/durar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/durar-app/durar/issues"
+  },
+  "license": "MIT",
+  "author": "Durar Team",
+  "type": "module",
+  "bin": {
+    "durar": "./durar.mjs"
+  },
+  "files": [
+    "durar.mjs",
+    "lib/",
+    "scripts/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.mjs",
+    "migrate": "node scripts/migrate.mjs",
+    "sync-upstream": "node scripts/sync-upstream.mjs"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "durar",
+    "ai",
+    "assistant",
+    "cli",
+    "telegram",
+    "whatsapp",
+    "discord",
+    "slack",
+    "gateway"
+  ]
+}

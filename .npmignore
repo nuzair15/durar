@@ -1,0 +1,7 @@
+# Exclude from npm publish
+.github/
+.gitignore
+.sync-result
+PUBLISH_STEPS.md
+node_modules/
+*.log
