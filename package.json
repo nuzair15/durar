@@ -1,6 +1,6 @@
 {
   "name": "durar",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "Durar — your personal AI assistant on every platform. Powered by OpenClaw.",
   "homepage": "https://github.com/durar-app/durar",
   "repository": {
@@ -29,7 +29,7 @@
     "sync-upstream": "node scripts/sync-upstream.mjs"
   },
   "dependencies": {
-    "openclaw": "2026.5.5"
+    "openclaw": "2026.5.6"
   },
   "engines": {
     "node": ">=20.0.0"
